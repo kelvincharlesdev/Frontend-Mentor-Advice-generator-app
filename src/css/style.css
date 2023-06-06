@@ -1,52 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
-body{
-    font-family: 'Manrope', sans-serif;
-    font-weight: 800;
-    background-color: var(--background-color);
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: var(--background-color);
 }
 
-.cartao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.cartao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.conselho{
-    background-color: var(--conselho-cartao-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 345px;
-    border-radius: 10px;
+.conselho {
+  background-color: var(--conselho-cartao-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 345px;
+  border-radius: 10px;
 }
 
-.conselho .conselho-titulo{
-    color: var(--conselho-dice-color);
-    letter-spacing: 5px;
-    font-size: 15px;
-    margin-top: 30px;
+.conselho .conselho-titulo {
+  color: var(--conselho-dice-color);
+  letter-spacing: 5px;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
-.conselho .conselho-descricao{
-    color: var(--texto-color);
-    font-size: 23px;
-    padding: 23px;
-    text-align: center;
+.conselho .conselho-descricao {
+  color: var(--texto-color);
+  font-size: 23px;
+  padding: 23px;
+  text-align: center;
 }
 
-.conselho .conselho-atualizacao{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--conselho-dice-color);
-    transform: translateY(50%);
+.conselho .conselho-atualizacao {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--conselho-dice-color);
+  transform: translateY(50%);
 }
 
-.conselho .conselho-atualizacao:hover{
-    color: #53ffab;
-    cursor: pointer;
-    box-shadow: 0 5px 15px;
+.conselho .conselho-atualizacao:hover {
+  color: #53ffab;
+  cursor: pointer;
+  box-shadow: 0 5px 15px;
 }
