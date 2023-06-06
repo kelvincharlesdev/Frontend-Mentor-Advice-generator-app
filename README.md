@@ -15,7 +15,7 @@ Projeto inicialmente feito com HTML e CSS que eram meu conhecimento na época. H
 
 ## ⚙ Funcionalidades
 
-    - Gerar conselhos aleatórios ao clicar no botão
+    - Gerar conselhos aleatórios ao clicar no botão a cada 2 segundos
      
 
 >Acesse a página on-line: <a href="https://frontend-mentor-advice-generator-app-xi.vercel.app/" target=_blank> Advice Generator App </a>
